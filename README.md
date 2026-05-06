@@ -1,1 +1,173 @@
-# AUB-Rafe-Student-Portal
+[html.index.txt](https://github.com/user-attachments/files/27429375/html.index.txt)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student Fee Statement</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f5f7fa;
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: auto;
+        border: 1px solid #c5d3e0;
+        background: white;
+    }
+
+    .header {
+        background: linear-gradient(to right, #cfe0f5, #e6eef8);
+        padding: 10px;
+        font-size: 14px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        border-bottom: 1px solid #c5d3e0;
+    }
+
+    .header div {
+        font-weight: bold;
+    }
+
+    .header span {
+        font-weight: normal;
+        margin-left: 5px;
+    }
+
+    .semester {
+        text-align: right;
+        padding: 8px 10px;
+        background: linear-gradient(to right, #cfe0f5, #e6eef8);
+        border-bottom: 1px solid #c5d3e0;
+        font-weight: bold;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+    }
+
+    th, td {
+        border: 1px solid #d0d7de;
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background: #f1f3f5;
+        font-weight: bold;
+    }
+
+    .green-row {
+        background: #d4edda;
+        font-weight: bold;
+    }
+
+    .blue-row {
+        background: #cfe0f5;
+        font-weight: bold;
+    }
+
+    .right {
+        text-align: right;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        <div>Student ID: <span>202420588</span></div>
+        <div>Student Name: <span>Syed Rafe Islam Sohan</span></div>
+        <div>Program: <span>CSE-B.Sc. (Engg) in Computer Science and Engineering</span></div>
+    </div>
+
+    <div class="semester">
+        Semester: Summer 2026
+    </div>
+
+    <!-- Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Cost Head</th>
+                <th>Cost Amount</th>
+                <th>Deductive Amount</th>
+                <th>Payable</th>
+                <th>Payment Date</th>
+                <th>Money Receipt No</th>
+                <th>Paid Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Convocation Fee</td>
+                <td class="right">0.00</td>
+                <td class="right">0.00</td>
+                <td class="right">0.00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Credit Course Fee</td>
+                <td class="right">34500.00</td>
+                <td class="right">0.00</td>
+                <td class="right">34500.00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Late Course Fee</td>
+                <td class="right">0.00</td>
+                <td class="right">0.00</td>
+                <td class="right">0.00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Semester Registration Fee</td>
+                <td class="right">2200.00</td>
+                <td class="right">0.00</td>
+                <td class="right">2200.00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="green-row">
+                <td>Total Cost in Summer 2026</td>
+                <td class="right">36700.00</td>
+                <td colspan="3"></td>
+                <td>Total Paid in Summer 2026</td>
+                <td class="right">0.00</td>
+            </tr>
+
+            <tr>
+                <td>Dues in Summer 2026</td>
+                <td class="right">36700.00</td>
+                <td colspan="3"></td>
+                <td>Dues till Summer 2026</td>
+                <td class="right">36700.00</td>
+            </tr>
+
+            <tr class="blue-row">
+                <td colspan="5"></td>
+                <td>Grand Total Dues</td>
+                <td class="right">36700.00</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
